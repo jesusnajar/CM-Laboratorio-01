@@ -38,16 +38,16 @@
 //-------------------------------------------------------------------------------
 -(void)initController {
     //Initialize arrays
-    maNames         = [[NSMutableArray alloc] initWithObjects: @"Hilda", @"Lannister", @"Snow", @"Stark", @"Targaryen", nil];
+    maNames         = [[NSMutableArray alloc] initWithObjects: @"Margaery Tyrell", @"Tyrion Lannister", @"Jon Snow", @"Arya Stark", @"Daenerys Targaryen", nil];
     maAges          = [[NSMutableArray alloc] initWithObjects: @"30", @"28", @"40", @"38", @"30", nil];
     maImgs          = [[NSMutableArray alloc] initWithObjects: @"hilda.png", @"lannister.png", @"snow.jpg", @"stark.jpg", @"targaryen.jpg", nil];
     
     maDesc          = [[NSMutableArray alloc] initWithObjects:
-                       @"Hilda ...Description for Hilda.",
-                       @"Lannister ...Description for Lannister.",
-                       @"Snow ...Description for Snow.",
-                       @"Stark ...Description for Stark.",
-                       @"Targaryen ...Description for Targaryen.", nil];
+                       @"Margaery Tyrell es la única hija de Lord Mace Tyrell y Lady Alerie Hightower. Tiene tres hermanos, Willas, Garlan y Loras. .",
+                       @"Tyrion Lannister es el tercer hijo de Lord Tywin Es apodado el Gnomo y Mediohombre debido a su enanismo.",
+                       @"Jon Snow Lord es el Lord Comandante de la Guardia de la Noche nº 998. ",
+                       @"Arya Stark es la segunda hija de Lord Eddard Stark y Lady Catelyn Tully.",
+                       @"Daenerys Targaryen La reina, también llamada Daenerys de la Tormenta.", nil];
                        
 }
 
