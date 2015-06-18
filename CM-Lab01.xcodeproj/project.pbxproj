@@ -10,11 +10,22 @@
 		8942F40C1B3328C6007BAF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F40B1B3328C6007BAF19 /* main.m */; };
 		8942F40F1B3328C6007BAF19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F40E1B3328C6007BAF19 /* AppDelegate.m */; };
 		8942F4121B3328C6007BAF19 /* CM_Lab01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8942F4101B3328C6007BAF19 /* CM_Lab01.xcdatamodeld */; };
-		8942F4151B3328C6007BAF19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F4141B3328C6007BAF19 /* ViewController.m */; };
+		8942F4151B3328C6007BAF19 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F4141B3328C6007BAF19 /* Start.m */; };
 		8942F4181B3328C6007BAF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4161B3328C6007BAF19 /* Main.storyboard */; };
 		8942F41A1B3328C6007BAF19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4191B3328C6007BAF19 /* Images.xcassets */; };
 		8942F41D1B3328C6007BAF19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8942F41B1B3328C6007BAF19 /* LaunchScreen.xib */; };
 		8942F4291B3328C6007BAF19 /* CM_Lab01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F4281B3328C6007BAF19 /* CM_Lab01Tests.m */; };
+		8942F4381B3329A6007BAF19 /* cellGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F4361B3329A6007BAF19 /* cellGame.m */; };
+		8942F4391B3329A6007BAF19 /* cellGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4371B3329A6007BAF19 /* cellGame.xib */; };
+		8942F43C1B332C19007BAF19 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F43B1B332C19007BAF19 /* Declarations.m */; };
+		8942F4441B332EA5007BAF19 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8942F43E1B332EA5007BAF19 /* default.jpg */; };
+		8942F4451B332EA5007BAF19 /* hilda.png in Resources */ = {isa = PBXBuildFile; fileRef = 8942F43F1B332EA5007BAF19 /* hilda.png */; };
+		8942F4461B332EA5007BAF19 /* lannister.png in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4401B332EA5007BAF19 /* lannister.png */; };
+		8942F4471B332EA5007BAF19 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4411B332EA5007BAF19 /* snow.jpg */; };
+		8942F4481B332EA5007BAF19 /* stark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4421B332EA5007BAF19 /* stark.jpg */; };
+		8942F4491B332EA5007BAF19 /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8942F4431B332EA5007BAF19 /* targaryen.jpg */; };
+		8942F44C1B332FB7007BAF19 /* CharacterDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F44B1B332FB7007BAF19 /* CharacterDetails.m */; };
+		8942F44F1B3339ED007BAF19 /* AddNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 8942F44E1B3339ED007BAF19 /* AddNew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +45,29 @@
 		8942F40D1B3328C6007BAF19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8942F40E1B3328C6007BAF19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8942F4111B3328C6007BAF19 /* CM_Lab01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CM_Lab01.xcdatamodel; sourceTree = "<group>"; };
-		8942F4131B3328C6007BAF19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8942F4141B3328C6007BAF19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8942F4131B3328C6007BAF19 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		8942F4141B3328C6007BAF19 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		8942F4171B3328C6007BAF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8942F4191B3328C6007BAF19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8942F41C1B3328C6007BAF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8942F4221B3328C6007BAF19 /* CM-Lab01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CM-Lab01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8942F4271B3328C6007BAF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8942F4281B3328C6007BAF19 /* CM_Lab01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CM_Lab01Tests.m; sourceTree = "<group>"; };
+		8942F4351B3329A6007BAF19 /* cellGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellGame.h; sourceTree = "<group>"; };
+		8942F4361B3329A6007BAF19 /* cellGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellGame.m; sourceTree = "<group>"; };
+		8942F4371B3329A6007BAF19 /* cellGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellGame.xib; sourceTree = "<group>"; };
+		8942F43A1B332C19007BAF19 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		8942F43B1B332C19007BAF19 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		8942F43E1B332EA5007BAF19 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		8942F43F1B332EA5007BAF19 /* hilda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hilda.png; sourceTree = "<group>"; };
+		8942F4401B332EA5007BAF19 /* lannister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lannister.png; sourceTree = "<group>"; };
+		8942F4411B332EA5007BAF19 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow.jpg; sourceTree = "<group>"; };
+		8942F4421B332EA5007BAF19 /* stark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stark.jpg; sourceTree = "<group>"; };
+		8942F4431B332EA5007BAF19 /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
+		8942F44A1B332FB7007BAF19 /* CharacterDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetails.h; sourceTree = "<group>"; };
+		8942F44B1B332FB7007BAF19 /* CharacterDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetails.m; sourceTree = "<group>"; };
+		8942F44D1B3339ED007BAF19 /* AddNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNew.h; sourceTree = "<group>"; };
+		8942F44E1B3339ED007BAF19 /* AddNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +109,10 @@
 		8942F4081B3328C6007BAF19 /* CM-Lab01 */ = {
 			isa = PBXGroup;
 			children = (
-				8942F40D1B3328C6007BAF19 /* AppDelegate.h */,
-				8942F40E1B3328C6007BAF19 /* AppDelegate.m */,
-				8942F4131B3328C6007BAF19 /* ViewController.h */,
-				8942F4141B3328C6007BAF19 /* ViewController.m */,
+				8942F4321B332930007BAF19 /* Main */,
+				8942F4341B332942007BAF19 /* Customized */,
+				8942F4331B332936007BAF19 /* Controllers */,
+				8942F43D1B332EA5007BAF19 /* imgs */,
 				8942F4161B3328C6007BAF19 /* Main.storyboard */,
 				8942F4191B3328C6007BAF19 /* Images.xcassets */,
 				8942F41B1B3328C6007BAF19 /* LaunchScreen.xib */,
@@ -120,6 +146,53 @@
 				8942F4271B3328C6007BAF19 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8942F4321B332930007BAF19 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8942F40D1B3328C6007BAF19 /* AppDelegate.h */,
+				8942F40E1B3328C6007BAF19 /* AppDelegate.m */,
+				8942F43A1B332C19007BAF19 /* Declarations.h */,
+				8942F43B1B332C19007BAF19 /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8942F4331B332936007BAF19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8942F4131B3328C6007BAF19 /* Start.h */,
+				8942F4141B3328C6007BAF19 /* Start.m */,
+				8942F44A1B332FB7007BAF19 /* CharacterDetails.h */,
+				8942F44B1B332FB7007BAF19 /* CharacterDetails.m */,
+				8942F44D1B3339ED007BAF19 /* AddNew.h */,
+				8942F44E1B3339ED007BAF19 /* AddNew.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8942F4341B332942007BAF19 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				8942F4351B3329A6007BAF19 /* cellGame.h */,
+				8942F4361B3329A6007BAF19 /* cellGame.m */,
+				8942F4371B3329A6007BAF19 /* cellGame.xib */,
+			);
+			name = Customized;
+			sourceTree = "<group>";
+		};
+		8942F43D1B332EA5007BAF19 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				8942F43E1B332EA5007BAF19 /* default.jpg */,
+				8942F43F1B332EA5007BAF19 /* hilda.png */,
+				8942F4401B332EA5007BAF19 /* lannister.png */,
+				8942F4411B332EA5007BAF19 /* snow.jpg */,
+				8942F4421B332EA5007BAF19 /* stark.jpg */,
+				8942F4431B332EA5007BAF19 /* targaryen.jpg */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +276,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8942F4181B3328C6007BAF19 /* Main.storyboard in Resources */,
+				8942F4481B332EA5007BAF19 /* stark.jpg in Resources */,
 				8942F41D1B3328C6007BAF19 /* LaunchScreen.xib in Resources */,
 				8942F41A1B3328C6007BAF19 /* Images.xcassets in Resources */,
+				8942F4391B3329A6007BAF19 /* cellGame.xib in Resources */,
+				8942F4491B332EA5007BAF19 /* targaryen.jpg in Resources */,
+				8942F4461B332EA5007BAF19 /* lannister.png in Resources */,
+				8942F4451B332EA5007BAF19 /* hilda.png in Resources */,
+				8942F4471B332EA5007BAF19 /* snow.jpg in Resources */,
+				8942F4441B332EA5007BAF19 /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +303,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8942F40F1B3328C6007BAF19 /* AppDelegate.m in Sources */,
+				8942F44C1B332FB7007BAF19 /* CharacterDetails.m in Sources */,
 				8942F40C1B3328C6007BAF19 /* main.m in Sources */,
-				8942F4151B3328C6007BAF19 /* ViewController.m in Sources */,
+				8942F43C1B332C19007BAF19 /* Declarations.m in Sources */,
+				8942F4151B3328C6007BAF19 /* Start.m in Sources */,
+				8942F4381B3329A6007BAF19 /* cellGame.m in Sources */,
+				8942F44F1B3339ED007BAF19 /* AddNew.m in Sources */,
 				8942F4121B3328C6007BAF19 /* CM_Lab01.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
